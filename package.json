@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "deploy": "scp -P2122 -rC ./dist/* rav@avdeenko.com:www/dev.avdeenko.com/",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
